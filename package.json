@@ -14,5 +14,12 @@
   "type": "module",
   "workspaces": [
     "src/bootcamp_chat_frontend"
-  ]
+  ],
+  "dependencies": {
+    "@dfinity/agent": "^2.0.0",
+    "@dfinity/auth-client": "^2.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  }
 }
